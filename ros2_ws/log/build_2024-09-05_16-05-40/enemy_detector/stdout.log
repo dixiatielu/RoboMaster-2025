@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target enemy_coordinates_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable enemy_coordinates_node[0m
+[100%] Built target enemy_coordinates_node
+-- Install configuration: ""
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/lib/enemy_detector/enemy_coordinates_node
+-- Set runtime path of "/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/lib/enemy_detector/enemy_coordinates_node" to ""
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/package_run_dependencies/enemy_detector
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/parent_prefix_path/enemy_detector
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.sh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.sh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.bash
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.sh
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.zsh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/packages/enemy_detector
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig.cmake
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig-version.cmake
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.xml

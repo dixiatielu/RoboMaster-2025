@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target enemy_coordinates_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o[0m
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:[m[K In member function ‘[01m[Kvoid EnemyCoordinatesNode::updateQueue()[m[K’:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:53:104:[m[K [01;31m[Kerror: [m[K‘[01m[KLatest[m[K’ is not a member of ‘[01m[Ktf2::TimePoint[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’}
+   53 | ffer_->transform(*latest_coords_, "base_link", tf2::TimePoint::[01;31m[KLatest[m[K);
+      |                                                                [01;31m[K^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76：CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/enemy_coordinates_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

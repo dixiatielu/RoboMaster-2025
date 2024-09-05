@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.001410] (-) JobUnselected: {'identifier': 'image_fps_processor'}
+[0.001501] (enemy_detector) JobQueued: {'identifier': 'enemy_detector', 'dependencies': OrderedDict()}
+[0.001542] (enemy_detector) JobStarted: {'identifier': 'enemy_detector'}
+[0.013360] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'cmake'}
+[0.014646] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'build'}
+[0.016042] (enemy_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1594'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a45d7845e0a55520ec61e61f66d9493c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1594,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1594'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f750dbbb_a413_441c_ac50_73d88b5e7d47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2N1GT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.245'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a45d7845e0a55520ec61e61f66d9493c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.063002] (enemy_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099242] (-) TimerEvent: {}
+[0.199793] (-) TimerEvent: {}
+[0.287863] (enemy_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299956] (-) TimerEvent: {}
+[0.337318] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.341943] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.352619] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.370161] (enemy_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.392420] (enemy_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400103] (-) TimerEvent: {}
+[0.447955] (enemy_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.450435] (enemy_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500325] (-) TimerEvent: {}
+[0.600803] (-) TimerEvent: {}
+[0.615923] (enemy_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701086] (-) TimerEvent: {}
+[0.701686] (enemy_detector) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.721982] (enemy_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801362] (-) TimerEvent: {}
+[0.841507] (enemy_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.842074] (enemy_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.842296] (enemy_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.843074] (enemy_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.844402] (enemy_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.844708] (enemy_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.845614] (enemy_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.846883] (enemy_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.862358] (enemy_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[0.865078] (enemy_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/build/enemy_detector\n'}
+[0.901508] (-) TimerEvent: {}
+[0.925134] (enemy_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o\x1b[0m\n'}
+[1.001713] (-) TimerEvent: {}
+[1.102367] (-) TimerEvent: {}
+[1.203031] (-) TimerEvent: {}
+[1.303608] (-) TimerEvent: {}
+[1.404334] (-) TimerEvent: {}
+[1.505114] (-) TimerEvent: {}
+[1.605836] (-) TimerEvent: {}
+[1.706487] (-) TimerEvent: {}
+[1.807188] (-) TimerEvent: {}
+[1.907854] (-) TimerEvent: {}
+[2.008347] (-) TimerEvent: {}
+[2.108972] (-) TimerEvent: {}
+[2.209605] (-) TimerEvent: {}
+[2.310229] (-) TimerEvent: {}
+[2.410758] (-) TimerEvent: {}
+[2.511282] (-) TimerEvent: {}
+[2.611769] (-) TimerEvent: {}
+[2.712251] (-) TimerEvent: {}
+[2.812715] (-) TimerEvent: {}
+[2.913186] (-) TimerEvent: {}
+[3.013681] (-) TimerEvent: {}
+[3.114221] (-) TimerEvent: {}
+[3.214794] (-) TimerEvent: {}
+[3.315265] (-) TimerEvent: {}
+[3.415848] (-) TimerEvent: {}
+[3.516383] (-) TimerEvent: {}
+[3.616999] (-) TimerEvent: {}
+[3.717549] (-) TimerEvent: {}
+[3.818071] (-) TimerEvent: {}
+[3.918576] (-) TimerEvent: {}
+[4.019069] (-) TimerEvent: {}
+[4.119577] (-) TimerEvent: {}
+[4.220099] (-) TimerEvent: {}
+[4.320732] (-) TimerEvent: {}
+[4.421350] (-) TimerEvent: {}
+[4.522008] (-) TimerEvent: {}
+[4.622704] (-) TimerEvent: {}
+[4.723238] (-) TimerEvent: {}
+[4.823807] (-) TimerEvent: {}
+[4.924388] (-) TimerEvent: {}
+[5.025064] (-) TimerEvent: {}
+[5.125812] (-) TimerEvent: {}
+[5.226364] (-) TimerEvent: {}
+[5.327027] (-) TimerEvent: {}
+[5.427669] (-) TimerEvent: {}
+[5.528393] (-) TimerEvent: {}
+[5.629108] (-) TimerEvent: {}
+[5.715608] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EnemyCoordinatesNode::pointCallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.716380] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[5.716527] (enemy_detector) StderrLine: {'line': b'   26 |         latest_point_ = msg->\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.716643] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.716765] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.716895] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.717042] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.717187] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.717334] (enemy_detector) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[5.717597] (enemy_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.717748] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.717962] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.718096] (enemy_detector) StderrLine: {'line': b'   26 |         latest_point_ = msg->\x1b[01;36m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.718203] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.718302] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.718403] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.718503] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.718612] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.718723] (enemy_detector) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[5.718850] (enemy_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.718949] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.719047] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.719151] (enemy_detector) StderrLine: {'line': b'   26 |         latest_point_ = msg->\x1b[01;36m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.719247] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.719343] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.719443] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.719542] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.719641] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.719765] (enemy_detector) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[5.719874] (enemy_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.719974] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.720074] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.720178] (enemy_detector) StderrLine: {'line': b'   26 |         latest_point_ = msg->\x1b[01;36m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.720276] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.720374] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.720473] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.720571] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.720670] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.720792] (enemy_detector) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[5.720899] (enemy_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.720998] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.721110] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.721215] (enemy_detector) StderrLine: {'line': b'   26 |         latest_point_ = msg->\x1b[01;36m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.721312] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.721409] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.721509] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.721612] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.721715] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.721832] (enemy_detector) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[5.721934] (enemy_detector) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.722033] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.722145] (enemy_detector) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[5.722244] (enemy_detector) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.722342] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.722442] (enemy_detector) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[5.722540] (enemy_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.722637] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.722758] (enemy_detector) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[5.722866] (enemy_detector) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.722962] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.723061] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.723156] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.723252] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.723348] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.723444] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.723547] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.723645] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.723752] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.723861] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.723960] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.724058] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.724162] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.724268] (enemy_detector) StderrLine: {'line': b'   28 |                     latest_point_.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, latest_point_.y, latest_point_.z);\n'}
+[5.724368] (enemy_detector) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.724467] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.724574] (enemy_detector) StderrLine: {'line': b'   28 |                     latest_point_.x, latest_point_.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K, latest_point_.z);\n'}
+[5.724673] (enemy_detector) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.724787] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.724895] (enemy_detector) StderrLine: {'line': b'   28 |                     latest_point_.x, latest_point_.y, latest_point_.\x1b[01;31m\x1b[Kz\x1b[m\x1b[K);\n'}
+[5.724990] (enemy_detector) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.729208] (-) TimerEvent: {}
+[5.829639] (-) TimerEvent: {}
+[5.930177] (-) TimerEvent: {}
+[6.030804] (-) TimerEvent: {}
+[6.131426] (-) TimerEvent: {}
+[6.232166] (-) TimerEvent: {}
+[6.332866] (-) TimerEvent: {}
+[6.433441] (-) TimerEvent: {}
+[6.534089] (-) TimerEvent: {}
+[6.634777] (-) TimerEvent: {}
+[6.735404] (-) TimerEvent: {}
+[6.836100] (-) TimerEvent: {}
+[6.936723] (-) TimerEvent: {}
+[7.037266] (-) TimerEvent: {}
+[7.137847] (-) TimerEvent: {}
+[7.238423] (-) TimerEvent: {}
+[7.338969] (-) TimerEvent: {}
+[7.439536] (-) TimerEvent: {}
+[7.540119] (-) TimerEvent: {}
+[7.640595] (-) TimerEvent: {}
+[7.741181] (-) TimerEvent: {}
+[7.841903] (-) TimerEvent: {}
+[7.942699] (-) TimerEvent: {}
+[8.043300] (-) TimerEvent: {}
+[8.143811] (-) TimerEvent: {}
+[8.244293] (-) TimerEvent: {}
+[8.344805] (-) TimerEvent: {}
+[8.445354] (-) TimerEvent: {}
+[8.545958] (-) TimerEvent: {}
+[8.646599] (-) TimerEvent: {}
+[8.747294] (-) TimerEvent: {}
+[8.848008] (-) TimerEvent: {}
+[8.948717] (-) TimerEvent: {}
+[9.049413] (-) TimerEvent: {}
+[9.150069] (-) TimerEvent: {}
+[9.250829] (-) TimerEvent: {}
+[9.351496] (-) TimerEvent: {}
+[9.452089] (-) TimerEvent: {}
+[9.552684] (-) TimerEvent: {}
+[9.653355] (-) TimerEvent: {}
+[9.753966] (-) TimerEvent: {}
+[9.854531] (-) TimerEvent: {}
+[9.955082] (-) TimerEvent: {}
+[10.055772] (-) TimerEvent: {}
+[10.156524] (-) TimerEvent: {}
+[10.257188] (-) TimerEvent: {}
+[10.357720] (-) TimerEvent: {}
+[10.458313] (-) TimerEvent: {}
+[10.558959] (-) TimerEvent: {}
+[10.659565] (-) TimerEvent: {}
+[10.703409] (enemy_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.703916] (enemy_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/enemy_coordinates_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.704244] (enemy_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.708346] (enemy_detector) CommandEnded: {'returncode': 2}
+[10.759905] (-) TimerEvent: {}
+[10.767616] (enemy_detector) JobEnded: {'identifier': 'enemy_detector', 'rc': 2}
+[10.778310] (-) EventReactorShutdown: {}

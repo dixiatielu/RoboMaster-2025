@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (-) JobUnselected: {'identifier': 'image_fps_processor'}
+[0.000861] (enemy_detector) JobQueued: {'identifier': 'enemy_detector', 'dependencies': OrderedDict()}
+[0.001281] (enemy_detector) JobStarted: {'identifier': 'enemy_detector'}
+[0.013969] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'cmake'}
+[0.015499] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'build'}
+[0.017008] (enemy_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1612'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c143df1bfd97ad2f40c139ac66d95dd3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1612,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1612'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4ef34c8_7e20_41bf_8d70_406361564e07'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PM3TT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.191'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c143df1bfd97ad2f40c139ac66d95dd3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[0.066666] (enemy_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099527] (-) TimerEvent: {}
+[0.199934] (-) TimerEvent: {}
+[0.293173] (enemy_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300018] (-) TimerEvent: {}
+[0.342728] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347648] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.358229] (enemy_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375015] (enemy_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.396172] (enemy_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400105] (-) TimerEvent: {}
+[0.452773] (enemy_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.455109] (enemy_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500249] (-) TimerEvent: {}
+[0.600661] (-) TimerEvent: {}
+[0.623817] (enemy_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700809] (-) TimerEvent: {}
+[0.714452] (enemy_detector) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.737624] (enemy_detector) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.744810] (enemy_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.800911] (-) TimerEvent: {}
+[0.880077] (enemy_detector) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.884301] (enemy_detector) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.887230] (enemy_detector) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.889726] (enemy_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901020] (-) TimerEvent: {}
+[1.001392] (-) TimerEvent: {}
+[1.016763] (enemy_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.017212] (enemy_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.017459] (enemy_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.018318] (enemy_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.019765] (enemy_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.020042] (enemy_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.020661] (enemy_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.022163] (enemy_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.042516] (enemy_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[1.045759] (enemy_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/build/enemy_detector\n'}
+[1.101530] (-) TimerEvent: {}
+[1.111479] (enemy_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transform_node.dir/src/coordinate_transform_node.cpp.o\x1b[0m\n'}
+[1.201663] (-) TimerEvent: {}
+[1.302110] (-) TimerEvent: {}
+[1.402627] (-) TimerEvent: {}
+[1.503217] (-) TimerEvent: {}
+[1.603793] (-) TimerEvent: {}
+[1.704271] (-) TimerEvent: {}
+[1.804765] (-) TimerEvent: {}
+[1.905264] (-) TimerEvent: {}
+[2.005839] (-) TimerEvent: {}
+[2.106506] (-) TimerEvent: {}
+[2.207075] (-) TimerEvent: {}
+[2.307623] (-) TimerEvent: {}
+[2.408115] (-) TimerEvent: {}
+[2.508600] (-) TimerEvent: {}
+[2.609081] (-) TimerEvent: {}
+[2.709567] (-) TimerEvent: {}
+[2.810251] (-) TimerEvent: {}
+[2.911023] (-) TimerEvent: {}
+[3.011511] (-) TimerEvent: {}
+[3.112008] (-) TimerEvent: {}
+[3.212516] (-) TimerEvent: {}
+[3.313026] (-) TimerEvent: {}
+[3.413523] (-) TimerEvent: {}
+[3.514016] (-) TimerEvent: {}
+[3.614630] (-) TimerEvent: {}
+[3.715386] (-) TimerEvent: {}
+[3.816200] (-) TimerEvent: {}
+[3.916691] (-) TimerEvent: {}
+[4.017179] (-) TimerEvent: {}
+[4.117648] (-) TimerEvent: {}
+[4.218161] (-) TimerEvent: {}
+[4.318701] (-) TimerEvent: {}
+[4.419241] (-) TimerEvent: {}
+[4.519806] (-) TimerEvent: {}
+[4.620338] (-) TimerEvent: {}
+[4.721005] (-) TimerEvent: {}
+[4.821493] (-) TimerEvent: {}
+[4.922098] (-) TimerEvent: {}
+[5.022750] (-) TimerEvent: {}
+[5.123447] (-) TimerEvent: {}
+[5.224237] (-) TimerEvent: {}
+[5.324894] (-) TimerEvent: {}
+[5.425546] (-) TimerEvent: {}
+[5.526031] (-) TimerEvent: {}
+[5.626559] (-) TimerEvent: {}
+[5.727086] (-) TimerEvent: {}
+[5.827745] (-) TimerEvent: {}
+[5.928376] (-) TimerEvent: {}
+[6.028990] (-) TimerEvent: {}
+[6.129605] (-) TimerEvent: {}
+[6.204964] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:71:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBuffer\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.205476] (enemy_detector) StderrLine: {'line': b'   71 |     std::shared_ptr<tf2_ros::\x1b[01;31m\x1b[KBuffer\x1b[m\x1b[K> tf_buffer_;\n'}
+[6.205641] (enemy_detector) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.205773] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:71:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.205897] (enemy_detector) StderrLine: {'line': b'   71 |     std::shared_ptr<tf2_ros::Buffer\x1b[01;31m\x1b[K>\x1b[m\x1b[K tf_buffer_;\n'}
+[6.206015] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.229685] (-) TimerEvent: {}
+[6.231147] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCoordinateTransformNode::CoordinateTransformNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.231381] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:17:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBuffer\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.231545] (enemy_detector) StderrLine: {'line': b'   17 |         tf_buffer_ = std::make_shared<tf2_ros::\x1b[01;31m\x1b[KBuffer\x1b[m\x1b[K>(this->get_clock());\n'}
+[6.231676] (enemy_detector) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.231949] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:17:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(rclcpp::Clock::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.232092] (enemy_detector) StderrLine: {'line': b'   17 |         tf_buffer_ = \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::Buffer>(this->get_clock())\x1b[m\x1b[K;\n'}
+[6.232450] (enemy_detector) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.232587] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.232743] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.232861] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.232976] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.233102] (enemy_detector) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[6.233211] (enemy_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.233318] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.233442] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:17:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.233561] (enemy_detector) StderrLine: {'line': b'   17 |         tf_buffer_ = \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::Buffer>(this->get_clock())\x1b[m\x1b[K;\n'}
+[6.233670] (enemy_detector) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.233776] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:18:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid type argument of unary \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 (have \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.233886] (enemy_detector) StderrLine: {'line': b'   18 | tf_listener_ = std::make_shared<tf2_ros::TransformListener>(\x1b[01;31m\x1b[K*tf_buffer_\x1b[m\x1b[K);\n'}
+[6.234000] (enemy_detector) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.234106] (enemy_detector) StderrLine: {'line': b'\n'}
+[6.252168] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CoordinateTransformNode::coordsCallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.252328] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/coordinate_transform_node.cpp:40:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[6.252453] (enemy_detector) StderrLine: {'line': b'   40 |             tf_buffer_\x1b[01;31m\x1b[K->\x1b[m\x1b[Ktransform(camera_coords, base_link_coords, "base_link", tf2::durationFromSec(1.0));\n'}
+[6.252567] (enemy_detector) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.329859] (-) TimerEvent: {}
+[6.430354] (-) TimerEvent: {}
+[6.530808] (-) TimerEvent: {}
+[6.631286] (-) TimerEvent: {}
+[6.731816] (-) TimerEvent: {}
+[6.832460] (-) TimerEvent: {}
+[6.932943] (-) TimerEvent: {}
+[7.033487] (-) TimerEvent: {}
+[7.133982] (-) TimerEvent: {}
+[7.234520] (-) TimerEvent: {}
+[7.335206] (-) TimerEvent: {}
+[7.436001] (-) TimerEvent: {}
+[7.536628] (-) TimerEvent: {}
+[7.637231] (-) TimerEvent: {}
+[7.737929] (-) TimerEvent: {}
+[7.838755] (-) TimerEvent: {}
+[7.939387] (-) TimerEvent: {}
+[8.040019] (-) TimerEvent: {}
+[8.140752] (-) TimerEvent: {}
+[8.241543] (-) TimerEvent: {}
+[8.342151] (-) TimerEvent: {}
+[8.442720] (-) TimerEvent: {}
+[8.543275] (-) TimerEvent: {}
+[8.643860] (-) TimerEvent: {}
+[8.744426] (-) TimerEvent: {}
+[8.844979] (-) TimerEvent: {}
+[8.945533] (-) TimerEvent: {}
+[9.046088] (-) TimerEvent: {}
+[9.146725] (-) TimerEvent: {}
+[9.247435] (-) TimerEvent: {}
+[9.348107] (-) TimerEvent: {}
+[9.448782] (-) TimerEvent: {}
+[9.549312] (-) TimerEvent: {}
+[9.649782] (-) TimerEvent: {}
+[9.750261] (-) TimerEvent: {}
+[9.850787] (-) TimerEvent: {}
+[9.951304] (-) TimerEvent: {}
+[10.051764] (-) TimerEvent: {}
+[10.152213] (-) TimerEvent: {}
+[10.252696] (-) TimerEvent: {}
+[10.353112] (-) TimerEvent: {}
+[10.453615] (-) TimerEvent: {}
+[10.554105] (-) TimerEvent: {}
+[10.654649] (-) TimerEvent: {}
+[10.755233] (-) TimerEvent: {}
+[10.855708] (-) TimerEvent: {}
+[10.956238] (-) TimerEvent: {}
+[11.056767] (-) TimerEvent: {}
+[11.157266] (-) TimerEvent: {}
+[11.257791] (-) TimerEvent: {}
+[11.267898] (enemy_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/coordinate_transform_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/coordinate_transform_node.dir/src/coordinate_transform_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[11.268236] (enemy_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/coordinate_transform_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.268533] (enemy_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.272121] (enemy_detector) CommandEnded: {'returncode': 2}
+[11.335806] (enemy_detector) JobEnded: {'identifier': 'enemy_detector', 'rc': 2}
+[11.346389] (-) EventReactorShutdown: {}

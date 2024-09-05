@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target enemy_coordinates_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o[0m
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:[m[K In member function ‘[01m[Kvoid EnemyCoordinatesNode::updateQueue()[m[K’:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::transform(std::__shared_ptr_access<geometry_msgs::msg::PointStamped_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type&, const char [10], tf2::TimePoint&, tf2::Duration&)[m[K’
+   57 |                 base_link_coords = [01;31m[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)[m[K;
+      |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, tf2::Duration) const[m[K’
+  209 |   T & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KT[m[K’ (‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >[m[K’ and ‘[01m[Kconst char [10][m[K’)
+   57 |                 base_link_coords = [01;36m[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, tf2::Duration) const[m[K’
+  231 |   T [01;36m[Ktransform[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+   57 |                 base_link_coords = [01;36m[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, tf2::Duration) const[m[K’
+  257 |   B & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:88:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktransform_time[m[K’ (type ‘[01m[Ktf2::TimePoint[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’}) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   57 | oords = tf_buffer_->transform(*latest_coords_, "base_link", [01;36m[Ktransform_time[m[K, time_tolerance);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  282 |   T & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KT[m[K’ (‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >[m[K’ and ‘[01m[Kconst char [10][m[K’)
+   57 |                 base_link_coords = [01;36m[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  312 |   T [01;36m[Ktransform[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:104:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_tolerance[m[K’ (type ‘[01m[Ktf2::Duration[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   57 | r_->transform(*latest_coords_, "base_link", transform_time, [01;36m[Ktime_tolerance[m[K);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  343 |   B & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+   57 |                 base_link_coords = [01;36m[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76：CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/enemy_coordinates_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

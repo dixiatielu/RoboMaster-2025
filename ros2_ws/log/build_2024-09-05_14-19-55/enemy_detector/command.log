@@ -1,0 +1,4 @@
+Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector -DCMAKE_INSTALL_PREFIX=/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector
+Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector -DCMAKE_INSTALL_PREFIX=/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector
+Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8
+Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8

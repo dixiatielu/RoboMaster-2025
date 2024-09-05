@@ -1,0 +1,7 @@
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/image_fps_processor/src/image_fps_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/image_fps_node.dir/build.make:76：CMakeFiles/image_fps_node.dir/src/image_fps_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/image_fps_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target image_fps_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_fps_node.dir/src/image_fps_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_fps_node[0m
+[100%] Built target image_fps_node
+-- Install configuration: ""
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node
+-- Set runtime path of "/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node" to ""
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/package_run_dependencies/image_fps_processor
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/parent_prefix_path/image_fps_processor
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.sh
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.bash
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.sh
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.zsh
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.dsv
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/packages/image_fps_processor
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig.cmake
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig-version.cmake
+-- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.xml

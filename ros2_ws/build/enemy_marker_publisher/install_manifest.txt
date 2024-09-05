@@ -1,0 +1,16 @@
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/package_run_dependencies/enemy_marker_publisher
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/parent_prefix_path/enemy_marker_publisher
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.bash
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.zsh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/packages/enemy_marker_publisher
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig-version.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.xml

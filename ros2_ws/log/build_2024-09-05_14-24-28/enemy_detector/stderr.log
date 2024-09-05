@@ -1,0 +1,83 @@
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:[m[K In member function ‘[01m[Kvoid EnemyCoordinatesNode::pointCallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’} and ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’})
+   26 |         latest_point_ = msg->[01;31m[Kpoint[m[K;
+      |                              [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   26 |         latest_point_ = msg->[01;36m[Kpoint[m[K;
+      |                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+   26 |         latest_point_ = msg->[01;36m[Kpoint[m[K;
+      |                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+   26 |         latest_point_ = msg->[01;36m[Kpoint[m[K;
+      |                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:26:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+   26 |         latest_point_ = msg->[01;36m[Kpoint[m[K;
+      |                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >&[m[K’
+  359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+      |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+  383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >::_point_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >&&[m[K’
+  383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:1[m[K:
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kx[m[K’
+   28 |                     latest_point_.[01;31m[Kx[m[K, latest_point_.y, latest_point_.z);
+      |                                   [01;31m[K^[m[K
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ky[m[K’
+   28 |                     latest_point_.x, latest_point_.[01;31m[Ky[m[K, latest_point_.z);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:28:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kz[m[K’
+   28 |                     latest_point_.x, latest_point_.y, latest_point_.[01;31m[Kz[m[K);
+      |                                                                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76：CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/enemy_coordinates_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (-) JobUnselected: {'identifier': 'enemy_detector'}
+[0.001568] (-) JobUnselected: {'identifier': 'image_fps_processor'}
+[0.001671] (enemy_marker_publisher) JobQueued: {'identifier': 'enemy_marker_publisher', 'dependencies': OrderedDict()}
+[0.001719] (enemy_marker_publisher) JobStarted: {'identifier': 'enemy_marker_publisher'}
+[0.015268] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'cmake'}
+[0.015657] (enemy_marker_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_marker_publisher', '-DCMAKE_INSTALL_PREFIX=/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('OLDPWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_marker_publisher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263d2581_b525_49f2_90fa_7bc05f02d756'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[0.099455] (-) TimerEvent: {}
+[0.152424] (enemy_marker_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199599] (-) TimerEvent: {}
+[0.275011] (enemy_marker_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.294453] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299674] (-) TimerEvent: {}
+[0.400109] (-) TimerEvent: {}
+[0.426108] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.441654] (enemy_marker_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.443669] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.444545] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451969] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500268] (-) TimerEvent: {}
+[0.600755] (-) TimerEvent: {}
+[0.601370] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.618109] (enemy_marker_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.618750] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619936] (enemy_marker_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.631706] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700915] (-) TimerEvent: {}
+[0.801473] (-) TimerEvent: {}
+[0.901946] (-) TimerEvent: {}
+[0.939774] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002133] (-) TimerEvent: {}
+[1.102771] (-) TimerEvent: {}
+[1.120902] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203050] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.203494] (-) TimerEvent: {}
+[1.214448] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.234156] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.262481] (enemy_marker_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.296707] (enemy_marker_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303655] (-) TimerEvent: {}
+[1.382822] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.387544] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403772] (-) TimerEvent: {}
+[1.504223] (-) TimerEvent: {}
+[1.543229] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.596231] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.604354] (-) TimerEvent: {}
+[1.674318] (enemy_marker_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.691335] (enemy_marker_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.704508] (-) TimerEvent: {}
+[1.804953] (-) TimerEvent: {}
+[1.824551] (enemy_marker_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.825450] (enemy_marker_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.905093] (-) TimerEvent: {}
+[1.961052] (enemy_marker_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.963373] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.005244] (-) TimerEvent: {}
+[2.073322] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.103393] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.105307] (-) TimerEvent: {}
+[2.205726] (-) TimerEvent: {}
+[2.306203] (-) TimerEvent: {}
+[2.322796] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.346357] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.348996] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.349182] (enemy_marker_publisher) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.354113] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.406352] (-) TimerEvent: {}
+[2.432863] (enemy_marker_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.506504] (-) TimerEvent: {}
+[2.597655] (enemy_marker_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.598165] (enemy_marker_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.598412] (enemy_marker_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.599887] (enemy_marker_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.602118] (enemy_marker_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.602347] (enemy_marker_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.603360] (enemy_marker_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.605591] (enemy_marker_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.606565] (-) TimerEvent: {}
+[2.627933] (enemy_marker_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[2.631444] (enemy_marker_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/build/enemy_marker_publisher\n'}
+[2.652093] (enemy_marker_publisher) CommandEnded: {'returncode': 0}
+[2.654003] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'build'}
+[2.656128] (enemy_marker_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('OLDPWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_marker_publisher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263d2581_b525_49f2_90fa_7bc05f02d756'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[2.706735] (-) TimerEvent: {}
+[2.754697] (enemy_marker_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enemy_marker_node.dir/src/enemy_marker_node.cpp.o\x1b[0m\n'}
+[2.806898] (-) TimerEvent: {}
+[2.907378] (-) TimerEvent: {}
+[3.007901] (-) TimerEvent: {}
+[3.108455] (-) TimerEvent: {}
+[3.208932] (-) TimerEvent: {}
+[3.309421] (-) TimerEvent: {}
+[3.409879] (-) TimerEvent: {}
+[3.510400] (-) TimerEvent: {}
+[3.610950] (-) TimerEvent: {}
+[3.711523] (-) TimerEvent: {}
+[3.812033] (-) TimerEvent: {}
+[3.912525] (-) TimerEvent: {}
+[4.013009] (-) TimerEvent: {}
+[4.113494] (-) TimerEvent: {}
+[4.213986] (-) TimerEvent: {}
+[4.314601] (-) TimerEvent: {}
+[4.415118] (-) TimerEvent: {}
+[4.516043] (-) TimerEvent: {}
+[4.616523] (-) TimerEvent: {}
+[4.717009] (-) TimerEvent: {}
+[4.817533] (-) TimerEvent: {}
+[4.918130] (-) TimerEvent: {}
+[5.018660] (-) TimerEvent: {}
+[5.119257] (-) TimerEvent: {}
+[5.219887] (-) TimerEvent: {}
+[5.320493] (-) TimerEvent: {}
+[5.421016] (-) TimerEvent: {}
+[5.521702] (-) TimerEvent: {}
+[5.622238] (-) TimerEvent: {}
+[5.723021] (-) TimerEvent: {}
+[5.823536] (-) TimerEvent: {}
+[5.924065] (-) TimerEvent: {}
+[6.024555] (-) TimerEvent: {}
+[6.125184] (-) TimerEvent: {}
+[6.225776] (-) TimerEvent: {}
+[6.326331] (-) TimerEvent: {}
+[6.426986] (-) TimerEvent: {}
+[6.527644] (-) TimerEvent: {}
+[6.628345] (-) TimerEvent: {}
+[6.728877] (-) TimerEvent: {}
+[6.829355] (-) TimerEvent: {}
+[6.929877] (-) TimerEvent: {}
+[7.030420] (-) TimerEvent: {}
+[7.130937] (-) TimerEvent: {}
+[7.231508] (-) TimerEvent: {}
+[7.332037] (-) TimerEvent: {}
+[7.432552] (-) TimerEvent: {}
+[7.533157] (-) TimerEvent: {}
+[7.633673] (-) TimerEvent: {}
+[7.734223] (-) TimerEvent: {}
+[7.834783] (-) TimerEvent: {}
+[7.935409] (-) TimerEvent: {}
+[8.035903] (-) TimerEvent: {}
+[8.136430] (-) TimerEvent: {}
+[8.236945] (-) TimerEvent: {}
+[8.337655] (-) TimerEvent: {}
+[8.438213] (-) TimerEvent: {}
+[8.538749] (-) TimerEvent: {}
+[8.639369] (-) TimerEvent: {}
+[8.739909] (-) TimerEvent: {}
+[8.840431] (-) TimerEvent: {}
+[8.940919] (-) TimerEvent: {}
+[9.041478] (-) TimerEvent: {}
+[9.141995] (-) TimerEvent: {}
+[9.242557] (-) TimerEvent: {}
+[9.343115] (-) TimerEvent: {}
+[9.443613] (-) TimerEvent: {}
+[9.544127] (-) TimerEvent: {}
+[9.644661] (-) TimerEvent: {}
+[9.745199] (-) TimerEvent: {}
+[9.846007] (-) TimerEvent: {}
+[9.946709] (-) TimerEvent: {}
+[10.047346] (-) TimerEvent: {}
+[10.147990] (-) TimerEvent: {}
+[10.248603] (-) TimerEvent: {}
+[10.349299] (-) TimerEvent: {}
+[10.449848] (-) TimerEvent: {}
+[10.550346] (-) TimerEvent: {}
+[10.650958] (-) TimerEvent: {}
+[10.751494] (-) TimerEvent: {}
+[10.852004] (-) TimerEvent: {}
+[10.952483] (-) TimerEvent: {}
+[11.053050] (-) TimerEvent: {}
+[11.153684] (-) TimerEvent: {}
+[11.254312] (-) TimerEvent: {}
+[11.355318] (-) TimerEvent: {}
+[11.456034] (-) TimerEvent: {}
+[11.556886] (-) TimerEvent: {}
+[11.657443] (-) TimerEvent: {}
+[11.758072] (-) TimerEvent: {}
+[11.858784] (-) TimerEvent: {}
+[11.959318] (-) TimerEvent: {}
+[12.059817] (-) TimerEvent: {}
+[12.160282] (-) TimerEvent: {}
+[12.260923] (-) TimerEvent: {}
+[12.361567] (-) TimerEvent: {}
+[12.462055] (-) TimerEvent: {}
+[12.562575] (-) TimerEvent: {}
+[12.663070] (-) TimerEvent: {}
+[12.763515] (-) TimerEvent: {}
+[12.864014] (-) TimerEvent: {}
+[12.964606] (-) TimerEvent: {}
+[13.065100] (-) TimerEvent: {}
+[13.165570] (-) TimerEvent: {}
+[13.266118] (-) TimerEvent: {}
+[13.366816] (-) TimerEvent: {}
+[13.467403] (-) TimerEvent: {}
+[13.568035] (-) TimerEvent: {}
+[13.668612] (-) TimerEvent: {}
+[13.769132] (-) TimerEvent: {}
+[13.869650] (-) TimerEvent: {}
+[13.970184] (-) TimerEvent: {}
+[14.070683] (-) TimerEvent: {}
+[14.171179] (-) TimerEvent: {}
+[14.271824] (-) TimerEvent: {}
+[14.372491] (-) TimerEvent: {}
+[14.473135] (-) TimerEvent: {}
+[14.573759] (-) TimerEvent: {}
+[14.674328] (-) TimerEvent: {}
+[14.774861] (-) TimerEvent: {}
+[14.875420] (-) TimerEvent: {}
+[14.976032] (-) TimerEvent: {}
+[15.076513] (-) TimerEvent: {}
+[15.177005] (-) TimerEvent: {}
+[15.277489] (-) TimerEvent: {}
+[15.377941] (-) TimerEvent: {}
+[15.478400] (-) TimerEvent: {}
+[15.578833] (-) TimerEvent: {}
+[15.679280] (-) TimerEvent: {}
+[15.779718] (-) TimerEvent: {}
+[15.880182] (-) TimerEvent: {}
+[15.980640] (-) TimerEvent: {}
+[16.081108] (-) TimerEvent: {}
+[16.181674] (-) TimerEvent: {}
+[16.282164] (-) TimerEvent: {}
+[16.382812] (-) TimerEvent: {}
+[16.483275] (-) TimerEvent: {}
+[16.583741] (-) TimerEvent: {}
+[16.684210] (-) TimerEvent: {}
+[16.784672] (-) TimerEvent: {}
+[16.885110] (-) TimerEvent: {}
+[16.985552] (-) TimerEvent: {}
+[17.085986] (-) TimerEvent: {}
+[17.186481] (-) TimerEvent: {}
+[17.286981] (-) TimerEvent: {}
+[17.387477] (-) TimerEvent: {}
+[17.487938] (-) TimerEvent: {}
+[17.588462] (-) TimerEvent: {}
+[17.688924] (-) TimerEvent: {}
+[17.789466] (-) TimerEvent: {}
+[17.890022] (-) TimerEvent: {}
+[17.990490] (-) TimerEvent: {}
+[18.090930] (-) TimerEvent: {}
+[18.191439] (-) TimerEvent: {}
+[18.291929] (-) TimerEvent: {}
+[18.392453] (-) TimerEvent: {}
+[18.492941] (-) TimerEvent: {}
+[18.593514] (-) TimerEvent: {}
+[18.693979] (-) TimerEvent: {}
+[18.794468] (-) TimerEvent: {}
+[18.894938] (-) TimerEvent: {}
+[18.995412] (-) TimerEvent: {}
+[19.095868] (-) TimerEvent: {}
+[19.196325] (-) TimerEvent: {}
+[19.296807] (-) TimerEvent: {}
+[19.397255] (-) TimerEvent: {}
+[19.497716] (-) TimerEvent: {}
+[19.598172] (-) TimerEvent: {}
+[19.698638] (-) TimerEvent: {}
+[19.799110] (-) TimerEvent: {}
+[19.899520] (-) TimerEvent: {}
+[19.999994] (-) TimerEvent: {}
+[20.100477] (-) TimerEvent: {}
+[20.200961] (-) TimerEvent: {}
+[20.301479] (-) TimerEvent: {}
+[20.402001] (-) TimerEvent: {}
+[20.502451] (-) TimerEvent: {}
+[20.602934] (-) TimerEvent: {}
+[20.703431] (-) TimerEvent: {}
+[20.803987] (-) TimerEvent: {}
+[20.904479] (-) TimerEvent: {}
+[21.005061] (-) TimerEvent: {}
+[21.105513] (-) TimerEvent: {}
+[21.205983] (-) TimerEvent: {}
+[21.306471] (-) TimerEvent: {}
+[21.406959] (-) TimerEvent: {}
+[21.507474] (-) TimerEvent: {}
+[21.607933] (-) TimerEvent: {}
+[21.708461] (-) TimerEvent: {}
+[21.809037] (-) TimerEvent: {}
+[21.909511] (-) TimerEvent: {}
+[22.010006] (-) TimerEvent: {}
+[22.110537] (-) TimerEvent: {}
+[22.127213] (enemy_marker_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable enemy_marker_node\x1b[0m\n'}
+[22.210684] (-) TimerEvent: {}
+[22.311198] (-) TimerEvent: {}
+[22.411734] (-) TimerEvent: {}
+[22.512327] (-) TimerEvent: {}
+[22.612845] (-) TimerEvent: {}
+[22.713327] (-) TimerEvent: {}
+[22.813795] (-) TimerEvent: {}
+[22.914259] (-) TimerEvent: {}
+[23.014708] (-) TimerEvent: {}
+[23.097586] (enemy_marker_publisher) StdoutLine: {'line': b'[100%] Built target enemy_marker_node\n'}
+[23.114872] (-) TimerEvent: {}
+[23.118907] (enemy_marker_publisher) CommandEnded: {'returncode': 0}
+[23.164869] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'install'}
+[23.182723] (enemy_marker_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('OLDPWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_marker_publisher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263d2581_b525_49f2_90fa_7bc05f02d756'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[23.198026] (enemy_marker_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.198616] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node\n'}
+[23.204193] (enemy_marker_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node" to ""\n'}
+[23.204568] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/package_run_dependencies/enemy_marker_publisher\n'}
+[23.204915] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/parent_prefix_path/enemy_marker_publisher\n'}
+[23.205194] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.sh\n'}
+[23.205447] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.dsv\n'}
+[23.205814] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.sh\n'}
+[23.206027] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.dsv\n'}
+[23.206215] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.bash\n'}
+[23.206422] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.sh\n'}
+[23.206748] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.zsh\n'}
+[23.206931] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.dsv\n'}
+[23.207115] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.dsv\n'}
+[23.207378] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/packages/enemy_marker_publisher\n'}
+[23.207756] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig.cmake\n'}
+[23.207956] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig-version.cmake\n'}
+[23.208189] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.xml\n'}
+[23.211494] (enemy_marker_publisher) CommandEnded: {'returncode': 0}
+[23.214974] (-) TimerEvent: {}
+[23.303404] (enemy_marker_publisher) JobEnded: {'identifier': 'enemy_marker_publisher', 'rc': 0}
+[23.304784] (-) EventReactorShutdown: {}

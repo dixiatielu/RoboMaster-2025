@@ -1,0 +1,4 @@
+Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher -- -j8 -l8
+Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher -- -j8 -l8
+Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher
+Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher

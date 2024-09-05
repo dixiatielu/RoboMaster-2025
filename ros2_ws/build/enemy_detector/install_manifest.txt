@@ -1,0 +1,16 @@
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/lib/enemy_detector/enemy_coordinates_node
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/package_run_dependencies/enemy_detector
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/parent_prefix_path/enemy_detector
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.bash
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.zsh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/packages/enemy_detector
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig-version.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.xml

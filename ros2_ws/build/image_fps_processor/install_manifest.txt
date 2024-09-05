@@ -1,0 +1,16 @@
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/package_run_dependencies/image_fps_processor
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/parent_prefix_path/image_fps_processor
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.bash
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.sh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.zsh
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.dsv
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/packages/image_fps_processor
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig-version.cmake
+/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.xml

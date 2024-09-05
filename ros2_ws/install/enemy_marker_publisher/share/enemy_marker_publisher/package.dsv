@@ -1,0 +1,8 @@
+source;share/enemy_marker_publisher/hook/cmake_prefix_path.ps1
+source;share/enemy_marker_publisher/hook/cmake_prefix_path.dsv
+source;share/enemy_marker_publisher/hook/cmake_prefix_path.sh
+source;share/enemy_marker_publisher/local_setup.bash
+source;share/enemy_marker_publisher/local_setup.dsv
+source;share/enemy_marker_publisher/local_setup.ps1
+source;share/enemy_marker_publisher/local_setup.sh
+source;share/enemy_marker_publisher/local_setup.zsh

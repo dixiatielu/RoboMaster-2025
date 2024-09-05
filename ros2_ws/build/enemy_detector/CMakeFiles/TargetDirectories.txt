@@ -1,0 +1,10 @@
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/uninstall.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/enemy_detector_uninstall.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/enemy_coordinates_node.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/test.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/edit_cache.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/rebuild_cache.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/list_install_components.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/install.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/install/local.dir
+/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector/CMakeFiles/install/strip.dir

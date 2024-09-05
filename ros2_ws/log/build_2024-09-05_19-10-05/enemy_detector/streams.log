@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target enemy_coordinates_node[0m
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o[0m
+[6.202s] [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:[m[K In member function ‘[01m[Kvoid EnemyCoordinatesNode::updateQueue()[m[K’:
+[6.202s] [01m[K/home/dxtl/RM2025第二轮考核/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:53:104:[m[K [01;31m[Kerror: [m[K‘[01m[KLatest[m[K’ is not a member of ‘[01m[Ktf2::TimePoint[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’}
+[6.202s]    53 | ffer_->transform(*latest_coords_, "base_link", tf2::TimePoint::[01;31m[KLatest[m[K);
+[6.202s]       |                                                                [01;31m[K^~~~~~[m[K
+[6.202s] 
+[11.753s] gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76：CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] 错误 1
+[11.753s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/enemy_coordinates_node.dir/all] 错误 2
+[11.754s] gmake: *** [Makefile:146：all] 错误 2
+[11.758s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8

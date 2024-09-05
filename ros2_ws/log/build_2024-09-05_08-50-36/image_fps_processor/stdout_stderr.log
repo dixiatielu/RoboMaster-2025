@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor
+-- Install configuration: ""
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/package_run_dependencies/image_fps_processor
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/parent_prefix_path/image_fps_processor
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.sh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.sh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.bash
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.sh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.zsh
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.dsv
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/packages/image_fps_processor
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig.cmake
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig-version.cmake
+-- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.xml

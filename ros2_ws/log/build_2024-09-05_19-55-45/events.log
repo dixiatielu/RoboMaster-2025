@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.001880] (-) JobUnselected: {'identifier': 'enemy_detector'}
+[0.002616] (-) JobUnselected: {'identifier': 'image_fps_processor'}
+[0.002743] (enemy_marker_publisher) JobQueued: {'identifier': 'enemy_marker_publisher', 'dependencies': OrderedDict()}
+[0.002799] (enemy_marker_publisher) JobStarted: {'identifier': 'enemy_marker_publisher'}
+[0.019404] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'cmake'}
+[0.021299] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'build'}
+[0.023249] (enemy_marker_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9bac6f4_9aff_45fd_924c_ded3b50afd28'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.286'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[0.099349] (-) TimerEvent: {}
+[0.126926] (enemy_marker_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target enemy_marker_node\x1b[0m\n'}
+[0.166401] (enemy_marker_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enemy_marker_node.dir/src/enemy_marker_node.cpp.o\x1b[0m\n'}
+[0.199523] (-) TimerEvent: {}
+[0.300039] (-) TimerEvent: {}
+[0.400565] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601828] (-) TimerEvent: {}
+[0.702387] (-) TimerEvent: {}
+[0.802981] (-) TimerEvent: {}
+[0.903459] (-) TimerEvent: {}
+[1.003987] (-) TimerEvent: {}
+[1.104605] (-) TimerEvent: {}
+[1.205623] (-) TimerEvent: {}
+[1.306352] (-) TimerEvent: {}
+[1.407020] (-) TimerEvent: {}
+[1.507686] (-) TimerEvent: {}
+[1.608360] (-) TimerEvent: {}
+[1.709021] (-) TimerEvent: {}
+[1.810244] (-) TimerEvent: {}
+[1.910925] (-) TimerEvent: {}
+[2.011730] (-) TimerEvent: {}
+[2.112324] (-) TimerEvent: {}
+[2.213012] (-) TimerEvent: {}
+[2.313637] (-) TimerEvent: {}
+[2.414237] (-) TimerEvent: {}
+[2.515060] (-) TimerEvent: {}
+[2.615602] (-) TimerEvent: {}
+[2.716252] (-) TimerEvent: {}
+[2.816936] (-) TimerEvent: {}
+[2.917643] (-) TimerEvent: {}
+[3.018288] (-) TimerEvent: {}
+[3.118902] (-) TimerEvent: {}
+[3.219630] (-) TimerEvent: {}
+[3.320652] (-) TimerEvent: {}
+[3.422000] (-) TimerEvent: {}
+[3.522685] (-) TimerEvent: {}
+[3.623291] (-) TimerEvent: {}
+[3.723963] (-) TimerEvent: {}
+[3.824582] (-) TimerEvent: {}
+[3.925445] (-) TimerEvent: {}
+[4.026169] (-) TimerEvent: {}
+[4.126831] (-) TimerEvent: {}
+[4.227354] (-) TimerEvent: {}
+[4.327988] (-) TimerEvent: {}
+[4.428599] (-) TimerEvent: {}
+[4.529177] (-) TimerEvent: {}
+[4.629744] (-) TimerEvent: {}
+[4.730294] (-) TimerEvent: {}
+[4.830916] (-) TimerEvent: {}
+[4.931616] (-) TimerEvent: {}
+[5.032301] (-) TimerEvent: {}
+[5.132938] (-) TimerEvent: {}
+[5.233547] (-) TimerEvent: {}
+[5.334158] (-) TimerEvent: {}
+[5.434782] (-) TimerEvent: {}
+[5.535483] (-) TimerEvent: {}
+[5.636177] (-) TimerEvent: {}
+[5.736773] (-) TimerEvent: {}
+[5.837355] (-) TimerEvent: {}
+[5.938035] (-) TimerEvent: {}
+[6.038797] (-) TimerEvent: {}
+[6.139449] (-) TimerEvent: {}
+[6.240189] (-) TimerEvent: {}
+[6.341077] (-) TimerEvent: {}
+[6.441841] (-) TimerEvent: {}
+[6.542519] (-) TimerEvent: {}
+[6.643679] (-) TimerEvent: {}
+[6.744480] (-) TimerEvent: {}
+[6.845175] (-) TimerEvent: {}
+[6.945851] (-) TimerEvent: {}
+[7.046499] (-) TimerEvent: {}
+[7.147129] (-) TimerEvent: {}
+[7.247795] (-) TimerEvent: {}
+[7.348569] (-) TimerEvent: {}
+[7.449268] (-) TimerEvent: {}
+[7.549921] (-) TimerEvent: {}
+[7.650581] (-) TimerEvent: {}
+[7.751249] (-) TimerEvent: {}
+[7.851785] (-) TimerEvent: {}
+[7.952393] (-) TimerEvent: {}
+[8.053035] (-) TimerEvent: {}
+[8.153582] (-) TimerEvent: {}
+[8.254128] (-) TimerEvent: {}
+[8.354786] (-) TimerEvent: {}
+[8.455363] (-) TimerEvent: {}
+[8.556199] (-) TimerEvent: {}
+[8.656965] (-) TimerEvent: {}
+[8.757895] (-) TimerEvent: {}
+[8.858455] (-) TimerEvent: {}
+[8.959082] (-) TimerEvent: {}
+[9.059738] (-) TimerEvent: {}
+[9.160632] (-) TimerEvent: {}
+[9.261423] (-) TimerEvent: {}
+[9.362105] (-) TimerEvent: {}
+[9.462754] (-) TimerEvent: {}
+[9.563421] (-) TimerEvent: {}
+[9.664030] (-) TimerEvent: {}
+[9.764617] (-) TimerEvent: {}
+[9.865351] (-) TimerEvent: {}
+[9.966700] (-) TimerEvent: {}
+[10.067543] (-) TimerEvent: {}
+[10.168238] (-) TimerEvent: {}
+[10.268958] (-) TimerEvent: {}
+[10.369609] (-) TimerEvent: {}
+[10.470311] (-) TimerEvent: {}
+[10.570961] (-) TimerEvent: {}
+[10.671682] (-) TimerEvent: {}
+[10.772331] (-) TimerEvent: {}
+[10.873022] (-) TimerEvent: {}
+[10.973779] (-) TimerEvent: {}
+[11.074457] (-) TimerEvent: {}
+[11.175154] (-) TimerEvent: {}
+[11.275975] (-) TimerEvent: {}
+[11.376623] (-) TimerEvent: {}
+[11.477320] (-) TimerEvent: {}
+[11.578102] (-) TimerEvent: {}
+[11.678886] (-) TimerEvent: {}
+[11.779536] (-) TimerEvent: {}
+[11.880235] (-) TimerEvent: {}
+[11.981113] (-) TimerEvent: {}
+[12.082018] (-) TimerEvent: {}
+[12.182642] (-) TimerEvent: {}
+[12.283364] (-) TimerEvent: {}
+[12.384069] (-) TimerEvent: {}
+[12.484797] (-) TimerEvent: {}
+[12.585578] (-) TimerEvent: {}
+[12.686138] (-) TimerEvent: {}
+[12.786801] (-) TimerEvent: {}
+[12.887384] (-) TimerEvent: {}
+[12.988157] (-) TimerEvent: {}
+[13.088905] (-) TimerEvent: {}
+[13.189492] (-) TimerEvent: {}
+[13.290189] (-) TimerEvent: {}
+[13.390785] (-) TimerEvent: {}
+[13.491394] (-) TimerEvent: {}
+[13.592134] (-) TimerEvent: {}
+[13.692751] (-) TimerEvent: {}
+[13.793406] (-) TimerEvent: {}
+[13.893945] (-) TimerEvent: {}
+[13.994716] (-) TimerEvent: {}
+[14.095543] (-) TimerEvent: {}
+[14.196206] (-) TimerEvent: {}
+[14.296868] (-) TimerEvent: {}
+[14.397416] (-) TimerEvent: {}
+[14.498138] (-) TimerEvent: {}
+[14.598731] (-) TimerEvent: {}
+[14.699339] (-) TimerEvent: {}
+[14.799904] (-) TimerEvent: {}
+[14.900428] (-) TimerEvent: {}
+[15.001004] (-) TimerEvent: {}
+[15.101649] (-) TimerEvent: {}
+[15.202422] (-) TimerEvent: {}
+[15.303108] (-) TimerEvent: {}
+[15.404015] (-) TimerEvent: {}
+[15.504638] (-) TimerEvent: {}
+[15.605328] (-) TimerEvent: {}
+[15.706029] (-) TimerEvent: {}
+[15.806761] (-) TimerEvent: {}
+[15.907380] (-) TimerEvent: {}
+[16.008256] (-) TimerEvent: {}
+[16.108887] (-) TimerEvent: {}
+[16.209936] (-) TimerEvent: {}
+[16.310536] (-) TimerEvent: {}
+[16.411196] (-) TimerEvent: {}
+[16.511838] (-) TimerEvent: {}
+[16.612377] (-) TimerEvent: {}
+[16.712958] (-) TimerEvent: {}
+[16.813528] (-) TimerEvent: {}
+[16.914123] (-) TimerEvent: {}
+[17.014701] (-) TimerEvent: {}
+[17.115294] (-) TimerEvent: {}
+[17.215941] (-) TimerEvent: {}
+[17.316443] (-) TimerEvent: {}
+[17.417067] (-) TimerEvent: {}
+[17.517700] (-) TimerEvent: {}
+[17.618308] (-) TimerEvent: {}
+[17.718939] (-) TimerEvent: {}
+[17.819643] (-) TimerEvent: {}
+[17.920591] (-) TimerEvent: {}
+[18.021288] (-) TimerEvent: {}
+[18.121838] (-) TimerEvent: {}
+[18.222534] (-) TimerEvent: {}
+[18.323151] (-) TimerEvent: {}
+[18.423776] (-) TimerEvent: {}
+[18.524312] (-) TimerEvent: {}
+[18.624846] (-) TimerEvent: {}
+[18.725594] (-) TimerEvent: {}
+[18.826319] (-) TimerEvent: {}
+[18.927063] (-) TimerEvent: {}
+[19.027672] (-) TimerEvent: {}
+[19.128365] (-) TimerEvent: {}
+[19.228950] (-) TimerEvent: {}
+[19.329460] (-) TimerEvent: {}
+[19.430365] (-) TimerEvent: {}
+[19.530970] (-) TimerEvent: {}
+[19.631622] (-) TimerEvent: {}
+[19.732212] (-) TimerEvent: {}
+[19.832885] (-) TimerEvent: {}
+[19.933378] (-) TimerEvent: {}
+[20.033876] (-) TimerEvent: {}
+[20.134554] (-) TimerEvent: {}
+[20.235142] (-) TimerEvent: {}
+[20.335631] (-) TimerEvent: {}
+[20.436411] (-) TimerEvent: {}
+[20.537037] (-) TimerEvent: {}
+[20.637619] (-) TimerEvent: {}
+[20.738249] (-) TimerEvent: {}
+[20.839024] (-) TimerEvent: {}
+[20.939606] (-) TimerEvent: {}
+[21.040302] (-) TimerEvent: {}
+[21.140856] (-) TimerEvent: {}
+[21.241576] (-) TimerEvent: {}
+[21.342254] (-) TimerEvent: {}
+[21.442881] (-) TimerEvent: {}
+[21.543390] (-) TimerEvent: {}
+[21.643948] (-) TimerEvent: {}
+[21.744501] (-) TimerEvent: {}
+[21.845113] (-) TimerEvent: {}
+[21.945619] (-) TimerEvent: {}
+[22.046145] (-) TimerEvent: {}
+[22.147325] (-) TimerEvent: {}
+[22.248385] (-) TimerEvent: {}
+[22.349059] (-) TimerEvent: {}
+[22.449787] (-) TimerEvent: {}
+[22.550442] (-) TimerEvent: {}
+[22.651185] (-) TimerEvent: {}
+[22.751739] (-) TimerEvent: {}
+[22.852334] (-) TimerEvent: {}
+[22.952986] (-) TimerEvent: {}
+[23.053609] (-) TimerEvent: {}
+[23.154319] (-) TimerEvent: {}
+[23.255048] (-) TimerEvent: {}
+[23.355668] (-) TimerEvent: {}
+[23.456385] (-) TimerEvent: {}
+[23.556905] (-) TimerEvent: {}
+[23.657443] (-) TimerEvent: {}
+[23.758267] (-) TimerEvent: {}
+[23.858987] (-) TimerEvent: {}
+[23.959719] (-) TimerEvent: {}
+[24.060347] (-) TimerEvent: {}
+[24.160952] (-) TimerEvent: {}
+[24.261621] (-) TimerEvent: {}
+[24.362229] (-) TimerEvent: {}
+[24.462747] (-) TimerEvent: {}
+[24.563277] (-) TimerEvent: {}
+[24.663961] (-) TimerEvent: {}
+[24.764561] (-) TimerEvent: {}
+[24.865151] (-) TimerEvent: {}
+[24.965747] (-) TimerEvent: {}
+[25.066418] (-) TimerEvent: {}
+[25.167021] (-) TimerEvent: {}
+[25.267764] (-) TimerEvent: {}
+[25.368344] (-) TimerEvent: {}
+[25.469004] (-) TimerEvent: {}
+[25.569606] (-) TimerEvent: {}
+[25.670198] (-) TimerEvent: {}
+[25.683185] (enemy_marker_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable enemy_marker_node\x1b[0m\n'}
+[25.770512] (-) TimerEvent: {}
+[25.871293] (-) TimerEvent: {}
+[25.972029] (-) TimerEvent: {}
+[26.072682] (-) TimerEvent: {}
+[26.173556] (-) TimerEvent: {}
+[26.274520] (-) TimerEvent: {}
+[26.375774] (-) TimerEvent: {}
+[26.476372] (-) TimerEvent: {}
+[26.577189] (-) TimerEvent: {}
+[26.677789] (-) TimerEvent: {}
+[26.778314] (-) TimerEvent: {}
+[26.878934] (-) TimerEvent: {}
+[26.979512] (-) TimerEvent: {}
+[27.080185] (-) TimerEvent: {}
+[27.114835] (enemy_marker_publisher) StdoutLine: {'line': b'[100%] Built target enemy_marker_node\n'}
+[27.139521] (enemy_marker_publisher) CommandEnded: {'returncode': 0}
+[27.180371] (-) TimerEvent: {}
+[27.203623] (enemy_marker_publisher) JobProgress: {'identifier': 'enemy_marker_publisher', 'progress': 'install'}
+[27.223374] (enemy_marker_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9bac6f4_9aff_45fd_924c_ded3b50afd28'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.286'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[27.243363] (enemy_marker_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.243970] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node\n'}
+[27.251869] (enemy_marker_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node" to ""\n'}
+[27.252576] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/package_run_dependencies/enemy_marker_publisher\n'}
+[27.253011] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/parent_prefix_path/enemy_marker_publisher\n'}
+[27.253356] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.sh\n'}
+[27.253658] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.dsv\n'}
+[27.253936] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.sh\n'}
+[27.254520] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.dsv\n'}
+[27.254795] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.bash\n'}
+[27.255059] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.sh\n'}
+[27.255285] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.zsh\n'}
+[27.255510] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.dsv\n'}
+[27.255700] (enemy_marker_publisher) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.dsv\n'}
+[27.255855] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/packages/enemy_marker_publisher\n'}
+[27.256174] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig.cmake\n'}
+[27.256324] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig-version.cmake\n'}
+[27.256459] (enemy_marker_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.xml\n'}
+[27.258047] (enemy_marker_publisher) CommandEnded: {'returncode': 0}
+[27.280740] (-) TimerEvent: {}
+[27.360404] (enemy_marker_publisher) JobEnded: {'identifier': 'enemy_marker_publisher', 'rc': 0}
+[27.362212] (-) EventReactorShutdown: {}

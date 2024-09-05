@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher -- -j8 -l8
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target enemy_marker_node[0m
+[0.178s] [ 50%] [32mBuilding CXX object CMakeFiles/enemy_marker_node.dir/src/enemy_marker_node.cpp.o[0m
+[26.918s] [100%] [32m[1mLinking CXX executable enemy_marker_node[0m
+[28.589s] [100%] Built target enemy_marker_node
+[28.618s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher -- -j8 -l8
+[28.714s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher
+[28.734s] -- Install configuration: ""
+[28.734s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node
+[28.743s] -- Set runtime path of "/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/lib/enemy_marker_publisher/enemy_marker_node" to ""
+[28.744s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/package_run_dependencies/enemy_marker_publisher
+[28.744s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/parent_prefix_path/enemy_marker_publisher
+[28.744s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.sh
+[28.745s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/ament_prefix_path.dsv
+[28.745s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.sh
+[28.745s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/environment/path.dsv
+[28.745s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.bash
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.sh
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.zsh
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/local_setup.dsv
+[28.746s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.dsv
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/ament_index/resource_index/packages/enemy_marker_publisher
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig.cmake
+[28.746s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/cmake/enemy_marker_publisherConfig-version.cmake
+[28.747s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_marker_publisher/share/enemy_marker_publisher/package.xml
+[28.752s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_marker_publisher

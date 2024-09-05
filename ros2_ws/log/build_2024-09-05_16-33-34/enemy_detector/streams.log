@@ -1,0 +1,53 @@
+[0.019s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8
+[0.064s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.339s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.353s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.447s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.719s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.742s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.749s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.884s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.888s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.891s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.893s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.017s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.017s] -- Configured cppcheck include dirs: 
+[1.018s] -- Configured cppcheck exclude dirs and/or files: 
+[1.018s] -- Added test 'lint_cmake' to check CMake code style
+[1.019s] -- Added test 'uncrustify' to check C / C++ code style
+[1.019s] -- Configured uncrustify additional arguments: 
+[1.020s] -- Added test 'xmllint' to check XML markup files
+[1.021s] -- Configuring done
+[1.041s] -- Generating done
+[1.044s] -- Build files have been written to: /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector
+[1.092s] [35m[1mConsolidate compiler generated dependencies of target enemy_coordinates_node[0m
+[1.121s] [ 50%] [32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o[0m
+[18.023s] [100%] [32m[1mLinking CXX executable enemy_coordinates_node[0m
+[18.826s] [100%] Built target enemy_coordinates_node
+[18.847s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector -- -j8 -l8
+[18.905s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector
+[18.917s] -- Install configuration: ""
+[18.917s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/lib/enemy_detector/enemy_coordinates_node
+[18.923s] -- Set runtime path of "/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/lib/enemy_detector/enemy_coordinates_node" to ""
+[18.923s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/package_run_dependencies/enemy_detector
+[18.923s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/parent_prefix_path/enemy_detector
+[18.924s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.sh
+[18.924s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/ament_prefix_path.dsv
+[18.925s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.sh
+[18.925s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/environment/path.dsv
+[18.925s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.bash
+[18.925s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.sh
+[18.925s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.zsh
+[18.925s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/local_setup.dsv
+[18.925s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.dsv
+[18.925s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/ament_index/resource_index/packages/enemy_detector
+[18.926s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig.cmake
+[18.926s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/cmake/enemy_detectorConfig-version.cmake
+[18.926s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector/share/enemy_detector/package.xml
+[18.929s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector

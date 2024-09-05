@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (image_fps_processor) JobQueued: {'identifier': 'image_fps_processor', 'dependencies': OrderedDict()}
+[0.001500] (image_fps_processor) JobStarted: {'identifier': 'image_fps_processor'}
+[0.016703] (image_fps_processor) JobProgress: {'identifier': 'image_fps_processor', 'progress': 'cmake'}
+[0.018190] (image_fps_processor) JobProgress: {'identifier': 'image_fps_processor', 'progress': 'build'}
+[0.019618] (image_fps_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=585cb7a58224a8b618e32b1766d8f877'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1601,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1601'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb9a7a96_c440_4a4e_9f04_aa02d6f3f8c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HP9GT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.285'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=585cb7a58224a8b618e32b1766d8f877'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/opt/ros/humble')]), 'shell': False}
+[0.099540] (-) TimerEvent: {}
+[0.116464] (image_fps_processor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_fps_node.dir/src/image_fps_node.cpp.o\x1b[0m\n'}
+[0.199707] (-) TimerEvent: {}
+[0.300300] (-) TimerEvent: {}
+[0.400773] (-) TimerEvent: {}
+[0.501361] (-) TimerEvent: {}
+[0.601840] (-) TimerEvent: {}
+[0.702321] (-) TimerEvent: {}
+[0.802851] (-) TimerEvent: {}
+[0.903481] (-) TimerEvent: {}
+[1.004079] (-) TimerEvent: {}
+[1.104726] (-) TimerEvent: {}
+[1.205271] (-) TimerEvent: {}
+[1.305764] (-) TimerEvent: {}
+[1.406268] (-) TimerEvent: {}
+[1.506752] (-) TimerEvent: {}
+[1.607224] (-) TimerEvent: {}
+[1.707739] (-) TimerEvent: {}
+[1.808342] (-) TimerEvent: {}
+[1.908866] (-) TimerEvent: {}
+[2.009365] (-) TimerEvent: {}
+[2.109838] (-) TimerEvent: {}
+[2.210323] (-) TimerEvent: {}
+[2.310787] (-) TimerEvent: {}
+[2.411238] (-) TimerEvent: {}
+[2.511807] (-) TimerEvent: {}
+[2.612366] (-) TimerEvent: {}
+[2.712992] (-) TimerEvent: {}
+[2.813603] (-) TimerEvent: {}
+[2.914187] (-) TimerEvent: {}
+[3.014708] (-) TimerEvent: {}
+[3.115211] (-) TimerEvent: {}
+[3.215744] (-) TimerEvent: {}
+[3.316273] (-) TimerEvent: {}
+[3.416848] (-) TimerEvent: {}
+[3.517451] (-) TimerEvent: {}
+[3.618028] (-) TimerEvent: {}
+[3.718517] (-) TimerEvent: {}
+[3.819353] (-) TimerEvent: {}
+[3.919912] (-) TimerEvent: {}
+[4.020422] (-) TimerEvent: {}
+[4.120948] (-) TimerEvent: {}
+[4.221545] (-) TimerEvent: {}
+[4.322111] (-) TimerEvent: {}
+[4.422849] (-) TimerEvent: {}
+[4.523487] (-) TimerEvent: {}
+[4.624134] (-) TimerEvent: {}
+[4.724722] (-) TimerEvent: {}
+[4.825299] (-) TimerEvent: {}
+[4.925813] (-) TimerEvent: {}
+[5.026328] (-) TimerEvent: {}
+[5.126929] (-) TimerEvent: {}
+[5.227445] (-) TimerEvent: {}
+[5.328048] (-) TimerEvent: {}
+[5.428582] (-) TimerEvent: {}
+[5.529127] (-) TimerEvent: {}
+[5.629633] (-) TimerEvent: {}
+[5.730234] (-) TimerEvent: {}
+[5.830764] (-) TimerEvent: {}
+[5.931272] (-) TimerEvent: {}
+[6.031764] (-) TimerEvent: {}
+[6.132243] (-) TimerEvent: {}
+[6.232724] (-) TimerEvent: {}
+[6.333226] (-) TimerEvent: {}
+[6.433769] (-) TimerEvent: {}
+[6.534322] (-) TimerEvent: {}
+[6.634929] (-) TimerEvent: {}
+[6.735452] (-) TimerEvent: {}
+[6.836025] (-) TimerEvent: {}
+[6.936606] (-) TimerEvent: {}
+[7.037103] (-) TimerEvent: {}
+[7.137676] (-) TimerEvent: {}
+[7.238355] (-) TimerEvent: {}
+[7.338827] (-) TimerEvent: {}
+[7.439362] (-) TimerEvent: {}
+[7.539931] (-) TimerEvent: {}
+[7.640428] (-) TimerEvent: {}
+[7.740917] (-) TimerEvent: {}
+[7.841422] (-) TimerEvent: {}
+[7.941913] (-) TimerEvent: {}
+[8.042395] (-) TimerEvent: {}
+[8.142924] (-) TimerEvent: {}
+[8.243448] (-) TimerEvent: {}
+[8.343931] (-) TimerEvent: {}
+[8.444404] (-) TimerEvent: {}
+[8.544948] (-) TimerEvent: {}
+[8.645477] (-) TimerEvent: {}
+[8.746043] (-) TimerEvent: {}
+[8.846609] (-) TimerEvent: {}
+[8.947133] (-) TimerEvent: {}
+[9.047680] (-) TimerEvent: {}
+[9.148247] (-) TimerEvent: {}
+[9.248924] (-) TimerEvent: {}
+[9.349523] (-) TimerEvent: {}
+[9.450141] (-) TimerEvent: {}
+[9.550728] (-) TimerEvent: {}
+[9.651275] (-) TimerEvent: {}
+[9.751759] (-) TimerEvent: {}
+[9.852247] (-) TimerEvent: {}
+[9.952751] (-) TimerEvent: {}
+[10.053227] (-) TimerEvent: {}
+[10.153674] (-) TimerEvent: {}
+[10.254165] (-) TimerEvent: {}
+[10.281955] (image_fps_processor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_fps_node\x1b[0m\n'}
+[10.354359] (-) TimerEvent: {}
+[10.454891] (-) TimerEvent: {}
+[10.555472] (-) TimerEvent: {}
+[10.656025] (-) TimerEvent: {}
+[10.756566] (-) TimerEvent: {}
+[10.857172] (-) TimerEvent: {}
+[10.957881] (-) TimerEvent: {}
+[11.058686] (-) TimerEvent: {}
+[11.138788] (image_fps_processor) StdoutLine: {'line': b'[100%] Built target image_fps_node\n'}
+[11.158857] (-) TimerEvent: {}
+[11.160619] (image_fps_processor) CommandEnded: {'returncode': 0}
+[11.207963] (image_fps_processor) JobProgress: {'identifier': 'image_fps_processor', 'progress': 'install'}
+[11.225222] (image_fps_processor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=585cb7a58224a8b618e32b1766d8f877'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1601,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1601'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb9a7a96_c440_4a4e_9f04_aa02d6f3f8c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HP9GT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.285'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=585cb7a58224a8b618e32b1766d8f877'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/opt/ros/humble')]), 'shell': False}
+[11.239566] (image_fps_processor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.240070] (image_fps_processor) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node\n'}
+[11.240793] (image_fps_processor) StdoutLine: {'line': b'-- Set runtime path of "/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node" to ""\n'}
+[11.241141] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/package_run_dependencies/image_fps_processor\n'}
+[11.241599] (image_fps_processor) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/parent_prefix_path/image_fps_processor\n'}
+[11.241791] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.sh\n'}
+[11.241937] (image_fps_processor) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.dsv\n'}
+[11.242430] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.sh\n'}
+[11.242945] (image_fps_processor) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.dsv\n'}
+[11.243131] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.bash\n'}
+[11.243396] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.sh\n'}
+[11.243522] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.zsh\n'}
+[11.243641] (image_fps_processor) StdoutLine: {'line': b'-- Installing: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.dsv\n'}
+[11.243757] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.dsv\n'}
+[11.243875] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/packages/image_fps_processor\n'}
+[11.243993] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig.cmake\n'}
+[11.244109] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig-version.cmake\n'}
+[11.244219] (image_fps_processor) StdoutLine: {'line': b'-- Up-to-date: /home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.xml\n'}
+[11.246854] (image_fps_processor) CommandEnded: {'returncode': 0}
+[11.259664] (-) TimerEvent: {}
+[11.324933] (image_fps_processor) JobEnded: {'identifier': 'image_fps_processor', 'rc': 0}
+[11.326034] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor -- -j8 -l8
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target image_fps_node[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/image_fps_node.dir/src/image_fps_node.cpp.o[0m
+[9.689s] [100%] [32m[1mLinking CXX executable image_fps_node[0m
+[10.429s] [100%] Built target image_fps_node
+[10.450s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor -- -j8 -l8
+[10.512s] Invoking command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor
+[10.525s] -- Install configuration: ""
+[10.526s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node
+[10.526s] -- Set runtime path of "/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/lib/image_fps_processor/image_fps_node" to ""
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/package_run_dependencies/image_fps_processor
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/parent_prefix_path/image_fps_processor
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.sh
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/ament_prefix_path.dsv
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.sh
+[10.527s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/environment/path.dsv
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.bash
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.sh
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.zsh
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/local_setup.dsv
+[10.528s] -- Installing: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.dsv
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/ament_index/resource_index/packages/image_fps_processor
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig.cmake
+[10.528s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/cmake/image_fps_processorConfig-version.cmake
+[10.529s] -- Up-to-date: /home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor/share/image_fps_processor/package.xml
+[10.531s] Invoked command in '/home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dxtl/RM2025第二轮考核/ros2_ws/build/image_fps_processor

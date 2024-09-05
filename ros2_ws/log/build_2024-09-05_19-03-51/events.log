@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.001227] (-) JobUnselected: {'identifier': 'image_fps_processor'}
+[0.001352] (enemy_detector) JobQueued: {'identifier': 'enemy_detector', 'dependencies': OrderedDict()}
+[0.001399] (enemy_detector) JobStarted: {'identifier': 'enemy_detector'}
+[0.018912] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'cmake'}
+[0.020700] (enemy_detector) JobProgress: {'identifier': 'enemy_detector', 'progress': 'build'}
+[0.022408] (enemy_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', '--', '-j8', '-l8'], 'cwd': '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'dxtl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/dxtl/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dxtl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1616'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dxtl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dxtl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dxtl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dxtl/.local/bin:/snap/bin:/home/dxtl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/dxtl-MATEBOOK:@/tmp/.ICE-unix/1616,unix/dxtl-MATEBOOK:/tmp/.ICE-unix/1616'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263d2581_b525_49f2_90fa_7bc05f02d756'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HS3KT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dxtl/RM2025第二轮考核/ros2_ws/build/enemy_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=195d5fbc2daabdd7a2485b3566d988c4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dxtl/RM2025第二轮考核/ros2_ws/install/image_fps_processor:/home/dxtl/RM2025第二轮考核/ros2_ws/install/enemy_detector:/opt/ros/humble')]), 'shell': False}
+[0.099393] (-) TimerEvent: {}
+[0.135883] (enemy_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target enemy_coordinates_node\x1b[0m\n'}
+[0.183436] (enemy_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o\x1b[0m\n'}
+[0.199544] (-) TimerEvent: {}
+[0.300031] (-) TimerEvent: {}
+[0.400617] (-) TimerEvent: {}
+[0.501268] (-) TimerEvent: {}
+[0.601802] (-) TimerEvent: {}
+[0.702292] (-) TimerEvent: {}
+[0.802821] (-) TimerEvent: {}
+[0.903492] (-) TimerEvent: {}
+[1.004238] (-) TimerEvent: {}
+[1.104977] (-) TimerEvent: {}
+[1.205592] (-) TimerEvent: {}
+[1.306436] (-) TimerEvent: {}
+[1.406917] (-) TimerEvent: {}
+[1.507384] (-) TimerEvent: {}
+[1.607848] (-) TimerEvent: {}
+[1.708342] (-) TimerEvent: {}
+[1.808855] (-) TimerEvent: {}
+[1.909462] (-) TimerEvent: {}
+[2.010063] (-) TimerEvent: {}
+[2.110539] (-) TimerEvent: {}
+[2.211035] (-) TimerEvent: {}
+[2.311581] (-) TimerEvent: {}
+[2.412065] (-) TimerEvent: {}
+[2.512603] (-) TimerEvent: {}
+[2.613176] (-) TimerEvent: {}
+[2.713649] (-) TimerEvent: {}
+[2.814141] (-) TimerEvent: {}
+[2.914616] (-) TimerEvent: {}
+[3.015083] (-) TimerEvent: {}
+[3.115594] (-) TimerEvent: {}
+[3.216050] (-) TimerEvent: {}
+[3.316544] (-) TimerEvent: {}
+[3.417100] (-) TimerEvent: {}
+[3.517623] (-) TimerEvent: {}
+[3.618091] (-) TimerEvent: {}
+[3.718568] (-) TimerEvent: {}
+[3.819120] (-) TimerEvent: {}
+[3.919725] (-) TimerEvent: {}
+[4.020256] (-) TimerEvent: {}
+[4.120740] (-) TimerEvent: {}
+[4.221261] (-) TimerEvent: {}
+[4.321789] (-) TimerEvent: {}
+[4.422448] (-) TimerEvent: {}
+[4.523086] (-) TimerEvent: {}
+[4.623766] (-) TimerEvent: {}
+[4.724401] (-) TimerEvent: {}
+[4.825070] (-) TimerEvent: {}
+[4.925717] (-) TimerEvent: {}
+[5.026248] (-) TimerEvent: {}
+[5.126752] (-) TimerEvent: {}
+[5.227283] (-) TimerEvent: {}
+[5.327807] (-) TimerEvent: {}
+[5.428410] (-) TimerEvent: {}
+[5.529042] (-) TimerEvent: {}
+[5.629693] (-) TimerEvent: {}
+[5.730392] (-) TimerEvent: {}
+[5.830895] (-) TimerEvent: {}
+[5.931554] (-) TimerEvent: {}
+[5.976557] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EnemyCoordinatesNode::updateQueue()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.977071] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::transform(std::__shared_ptr_access<geometry_msgs::msg::PointStamped_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type&, const char [10], tf2::TimePoint&, tf2::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.977495] (enemy_detector) StderrLine: {'line': b'   57 |                 base_link_coords = \x1b[01;31m\x1b[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)\x1b[m\x1b[K;\n'}
+[5.977676] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.984419] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.984754] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.984893] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.985040] (enemy_detector) StderrLine: {'line': b'  209 |   T & \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.985202] (enemy_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.985334] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.985471] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [10]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.985645] (enemy_detector) StderrLine: {'line': b'   57 |                 base_link_coords = \x1b[01;36m\x1b[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)\x1b[m\x1b[K;\n'}
+[5.985772] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.985892] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.986013] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.986135] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.986278] (enemy_detector) StderrLine: {'line': b'  231 |   T \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.986402] (enemy_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.986523] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.986725] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[5.987211] (enemy_detector) StderrLine: {'line': b'   57 |                 base_link_coords = \x1b[01;36m\x1b[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)\x1b[m\x1b[K;\n'}
+[5.987339] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.987455] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.987570] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.987755] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.987886] (enemy_detector) StderrLine: {'line': b'  257 |   B & \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.987997] (enemy_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.988105] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.988462] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:88:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ktransform_time\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ktf2::TimePoint\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.988693] (enemy_detector) StderrLine: {'line': b'   57 | oords = tf_buffer_->transform(*latest_coords_, "base_link", \x1b[01;36m\x1b[Ktransform_time\x1b[m\x1b[K, time_tolerance);\n'}
+[5.988819] (enemy_detector) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.988936] (enemy_detector) StderrLine: {'line': b'\n'}
+[5.989045] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.989174] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.989300] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, const TimePoint&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.989415] (enemy_detector) StderrLine: {'line': b'  282 |   T & \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.989525] (enemy_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.989631] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.989756] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [10]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.989877] (enemy_detector) StderrLine: {'line': b'   57 |                 base_link_coords = \x1b[01;36m\x1b[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)\x1b[m\x1b[K;\n'}
+[5.989989] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.990100] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.990221] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.990333] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, const TimePoint&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.990448] (enemy_detector) StderrLine: {'line': b'  312 |   T \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.990554] (enemy_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.990661] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.990771] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:104:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ktime_tolerance\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ktf2::Duration\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.990887] (enemy_detector) StderrLine: {'line': b'   57 | r_->transform(*latest_coords_, "base_link", transform_time, \x1b[01;36m\x1b[Ktime_tolerance\x1b[m\x1b[K);\n'}
+[5.991000] (enemy_detector) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.991108] (enemy_detector) StderrLine: {'line': b'\n'}
+[5.991223] (enemy_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.991332] (enemy_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.991439] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, const TimePoint&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991557] (enemy_detector) StderrLine: {'line': b'  343 |   B & \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K(\n'}
+[5.991665] (enemy_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.991777] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.991887] (enemy_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dxtl/RM2025\xe7\xac\xac\xe4\xba\x8c\xe8\xbd\xae\xe8\x80\x83\xe6\xa0\xb8/ros2_ws/src/enemy_detector/src/enemy_coordinates_node.cpp:57:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 4 provided\n'}
+[5.992008] (enemy_detector) StderrLine: {'line': b'   57 |                 base_link_coords = \x1b[01;36m\x1b[Ktf_buffer_->transform(*latest_coords_, "base_link", transform_time, time_tolerance)\x1b[m\x1b[K;\n'}
+[5.992118] (enemy_detector) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.031670] (-) TimerEvent: {}
+[6.132205] (-) TimerEvent: {}
+[6.232747] (-) TimerEvent: {}
+[6.333425] (-) TimerEvent: {}
+[6.433983] (-) TimerEvent: {}
+[6.534500] (-) TimerEvent: {}
+[6.634989] (-) TimerEvent: {}
+[6.735464] (-) TimerEvent: {}
+[6.835946] (-) TimerEvent: {}
+[6.936500] (-) TimerEvent: {}
+[7.036996] (-) TimerEvent: {}
+[7.137523] (-) TimerEvent: {}
+[7.238020] (-) TimerEvent: {}
+[7.338551] (-) TimerEvent: {}
+[7.439090] (-) TimerEvent: {}
+[7.539719] (-) TimerEvent: {}
+[7.640244] (-) TimerEvent: {}
+[7.740815] (-) TimerEvent: {}
+[7.841295] (-) TimerEvent: {}
+[7.941810] (-) TimerEvent: {}
+[8.042568] (-) TimerEvent: {}
+[8.143277] (-) TimerEvent: {}
+[8.243720] (-) TimerEvent: {}
+[8.344206] (-) TimerEvent: {}
+[8.444693] (-) TimerEvent: {}
+[8.545296] (-) TimerEvent: {}
+[8.645903] (-) TimerEvent: {}
+[8.746446] (-) TimerEvent: {}
+[8.847015] (-) TimerEvent: {}
+[8.947627] (-) TimerEvent: {}
+[9.048283] (-) TimerEvent: {}
+[9.149079] (-) TimerEvent: {}
+[9.249775] (-) TimerEvent: {}
+[9.350343] (-) TimerEvent: {}
+[9.450808] (-) TimerEvent: {}
+[9.551282] (-) TimerEvent: {}
+[9.651786] (-) TimerEvent: {}
+[9.752300] (-) TimerEvent: {}
+[9.852797] (-) TimerEvent: {}
+[9.953292] (-) TimerEvent: {}
+[10.053822] (-) TimerEvent: {}
+[10.154385] (-) TimerEvent: {}
+[10.254902] (-) TimerEvent: {}
+[10.355438] (-) TimerEvent: {}
+[10.455954] (-) TimerEvent: {}
+[10.556447] (-) TimerEvent: {}
+[10.656992] (-) TimerEvent: {}
+[10.757566] (-) TimerEvent: {}
+[10.858147] (-) TimerEvent: {}
+[10.958614] (-) TimerEvent: {}
+[11.059111] (-) TimerEvent: {}
+[11.159597] (-) TimerEvent: {}
+[11.260120] (-) TimerEvent: {}
+[11.360650] (-) TimerEvent: {}
+[11.422895] (enemy_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/enemy_coordinates_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/enemy_coordinates_node.dir/src/enemy_coordinates_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[11.423275] (enemy_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/enemy_coordinates_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.423636] (enemy_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[11.427496] (enemy_detector) CommandEnded: {'returncode': 2}
+[11.460820] (-) TimerEvent: {}
+[11.506726] (enemy_detector) JobEnded: {'identifier': 'enemy_detector', 'rc': 2}
+[11.517830] (-) EventReactorShutdown: {}

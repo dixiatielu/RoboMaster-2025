@@ -1,0 +1,4 @@
+source;share/enemy_marker_publisher/local_setup.bash
+source;share/enemy_marker_publisher/local_setup.dsv
+source;share/enemy_marker_publisher/local_setup.sh
+source;share/enemy_marker_publisher/local_setup.zsh
